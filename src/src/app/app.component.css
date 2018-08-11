@@ -1,0 +1,30 @@
+ ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color:white;
+              
+          }
+          
+          li {
+              float: left;
+          }
+          
+          li a {
+              display: block;
+              color:black;
+              text-align: center;
+             
+              padding: 5px 5px;
+              text-decoration: none;
+              border-width: 1px 1px 1px 1px;
+              border-style:solid;
+              margin-left: 100px;
+              background-color: rgb(173, 173, 240);
+              border-radius: 8px;
+          }
+          
+          li a:active {
+              background-color:gray;
+          }
